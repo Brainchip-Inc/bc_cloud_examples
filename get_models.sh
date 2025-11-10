@@ -15,8 +15,14 @@ rm *.h5
 # Get datasets for examples
 
 cd ..
+
+mkdir -p datasets
 cd datasets
 
 wget https://data.brainchip.com/dataset-mirror/coco/coco_anchors.pkl
 wget https://data.brainchip.com/dataset-mirror/voc/test_20_classes.tfrecord
 wget https://data.brainchip.com/dataset-mirror/widerface/widerface_anchors.pkl
+
+wget https://data.brainchip.com/dataset-mirror/widerface/widerface_demo.zip
+unzip -q widerface_demo.zip
+rm widerface_demo.zip
