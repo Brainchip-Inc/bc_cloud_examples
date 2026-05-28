@@ -1,7 +1,7 @@
 Overview
 --------
 
-This repository provides examples for deploying machine learning tasks, such as image classification and object detection, on the Akida 2 FPGA cloud platform.
+This repository provides examples for deploying machine learning tasks, such as key word spotting, on the Akida Pico FPGA cloud platform.
 
 Setup
 -----
